@@ -1,272 +1,186 @@
 @font-face {
-  font-family: 'SVN-Gotham';
-  src: url('../thiep/fonts/SVN-GothamBlackItalic.eot');
-  src: url('../thiep/fonts/SVN-GothamBlackItalic.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamBlackItalic.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamBlackItalic.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamBlackItalic.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamBlackItalic.svg#SVN-GothamBlackItalic') format('svg');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'SVN-Gotham';
-  src: url('../thiep/fonts/SVN-GothamBlack.eot');
-  src: url('../thiep/fonts/SVN-GothamBlack.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamBlack.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamBlack.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamBlack.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamBlack.svg#SVN-GothamBlack') format('svg');
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-Black.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-Black.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-Black.svg#Montserrat-Black') format('svg');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Gotham';
-  src: url('../thiep/fonts/SVN-GothamBoldItalic.eot');
-  src: url('../thiep/fonts/SVN-GothamBoldItalic.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamBoldItalic.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamBoldItalic.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamBoldItalic.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamBoldItalic.svg#SVN-GothamBoldItalic') format('svg');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'SVN-Gotham';
-  src: url('../thiep/fonts/SVN-GothamBold.eot');
-  src: url('../thiep/fonts/SVN-GothamBold.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamBold.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamBold.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamBold.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamBold.svg#SVN-GothamBold') format('svg');
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-ExtraBold.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-ExtraBold.svg#Montserrat-ExtraBold') format('svg');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Gotham Book';
-  src: url('../thiep/fonts/SVN-GothamBookItalic.eot');
-  src: url('../thiep/fonts/SVN-GothamBookItalic.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamBookItalic.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamBookItalic.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamBookItalic.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamBookItalic.svg#SVN-GothamBookItalic') format('svg');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'SVN-Gotham Book';
-  src: url('../thiep/fonts/SVN-GothamBook.eot');
-  src: url('../thiep/fonts/SVN-GothamBook.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamBook.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamBook.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamBook.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamBook.svg#SVN-GothamBook') format('svg');
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-Regular.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-Regular.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Gotham';
-  src: url('../thiep/fonts/SVN-GothamItalic.eot');
-  src: url('../thiep/fonts/SVN-GothamItalic.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamItalic.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamItalic.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamItalic.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamItalic.svg#SVN-GothamItalic') format('svg');
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'SVN-Gotham';
-  src: url('../thiep/fonts/SVN-GothamBold_1.eot');
-  src: url('../thiep/fonts/SVN-GothamBold_1.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamBold_1.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamBold_1.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamBold_1.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamBold_1.svg#SVN-GothamBold') format('svg');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'SVN-Gotham';
-  src: url('../thiep/fonts/SVN-GothamLightItalic.eot');
-  src: url('../thiep/fonts/SVN-GothamLightItalic.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamLightItalic.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamLightItalic.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamLightItalic.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamLightItalic.svg#SVN-GothamLightItalic') format('svg');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'SVN-Gotham';
-  src: url('../thiep/fonts/SVN-GothamLight.eot');
-  src: url('../thiep/fonts/SVN-GothamLight.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamLight.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamLight.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamLight.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamLight.svg#SVN-GothamLight') format('svg');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'SVN-Gotham';
-  src: url('../thiep/fonts/SVN-Gotham.eot');
-  src: url('../thiep/fonts/SVN-Gotham.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-Gotham.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-Gotham.woff') format('woff'),
-      url('../thiep/fonts/SVN-Gotham.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-Gotham.svg#SVN-Gotham') format('svg');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'SVN-Gotham';
-  src: url('../thiep/fonts/SVN-GothamThinItalic.eot');
-  src: url('../thiep/fonts/SVN-GothamThinItalic.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamThinItalic.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamThinItalic.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamThinItalic.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamThinItalic.svg#SVN-GothamThinItalic') format('svg');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'SVN-Gotham';
-  src: url('../thiep/fonts/SVN-GothamLight_1.eot');
-  src: url('../thiep/fonts/SVN-GothamLight_1.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamLight_1.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamLight_1.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamLight_1.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamLight_1.svg#SVN-GothamLight') format('svg');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'SVN-Gotham Ultra';
-  src: url('../thiep/fonts/SVN-GothamUltraItalic.eot');
-  src: url('../thiep/fonts/SVN-GothamUltraItalic.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamUltraItalic.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamUltraItalic.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamUltraItalic.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamUltraItalic.svg#SVN-GothamUltraItalic') format('svg');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'SVN-Gotham';
-  src: url('../thiep/fonts/SVN-GothamThin.eot');
-  src: url('../thiep/fonts/SVN-GothamThin.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamThin.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamThin.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamThin.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamThin.svg#SVN-GothamThin') format('svg');
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-Thin.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-Thin.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-Thin.svg#Montserrat-Thin') format('svg');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Gotham Ultra';
-  src: url('../thiep/fonts/SVN-GothamUltra.eot');
-  src: url('../thiep/fonts/SVN-GothamUltra.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamUltra.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamUltra.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamUltra.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamUltra.svg#SVN-GothamUltra') format('svg');
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-BlackItalic.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-BlackItalic.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-BlackItalic.svg#Montserrat-BlackItalic') format('svg');
   font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-ExtraLight.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-ExtraLight.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-ExtraLight.svg#Montserrat-ExtraLight') format('svg');
+  font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Gotham XLight';
-  src: url('../thiep/fonts/SVN-GothamXLightItalic.eot');
-  src: url('../thiep/fonts/SVN-GothamXLightItalic.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamXLightItalic.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamXLightItalic.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamXLightItalic.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamXLightItalic.svg#SVN-GothamXLightItalic') format('svg');
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-SemiBold.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-Medium.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-Medium.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-Light.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-Light.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-Light.svg#Montserrat-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-ExtraLightItalic.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-ExtraLightItalic.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-ExtraLightItalic.svg#Montserrat-ExtraLightItalic') format('svg');
   font-weight: 200;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Gotham XLight';
-  src: url('../thiep/fonts/SVN-GothamXLight.eot');
-  src: url('../thiep/fonts/SVN-GothamXLight.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-GothamXLight.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-GothamXLight.woff') format('woff'),
-      url('../thiep/fonts/SVN-GothamXLight.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-GothamXLight.svg#SVN-GothamXLight') format('svg');
-  font-weight: 200;
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-BoldItalic.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-BoldItalic.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-BoldItalic.svg#Montserrat-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-Italic.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-Italic.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-Italic.svg#Montserrat-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-ExtraBoldItalic.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-ExtraBoldItalic.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-ExtraBoldItalic.svg#Montserrat-ExtraBoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-Bold.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-Bold.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Sunflora';
-  src: url('../thiep/fonts/SVN-Sunflora.eot');
-  src: url('../thiep/fonts/SVN-Sunflora.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-Sunflora.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-Sunflora.woff') format('woff'),
-      url('../thiep/fonts/SVN-Sunflora.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-Sunflora.svg#SVN-Sunflora') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-LightItalic.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-LightItalic.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-LightItalic.svg#Montserrat-LightItalic') format('svg');
+  font-weight: 300;
+  font-style: italic;
   font-display: swap;
 }
+
 @font-face {
-  font-family: 'SVN-Sunflora';
-  src: url('../thiep/fonts/SVN-Sunflora.eot');
-  src: url('../thiep/fonts/SVN-Sunflora.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-Sunflora.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-Sunflora.woff') format('woff'),
-      url('../thiep/fonts/SVN-Sunflora.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-Sunflora.svg#SVN-Sunflora') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-SemiBoldItalic.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-SemiBoldItalic.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-SemiBoldItalic.svg#Montserrat-SemiBoldItalic') format('svg');
+  font-weight: 600;
+  font-style: italic;
   font-display: swap;
 }
+
 @font-face {
-  font-family: 'SVN-Dessert Menu Script';
-  src: url('../thiep/fonts/SVN-DessertMenuScript.eot');
-  src: url('../thiep/fonts/SVN-DessertMenuScript.eot?#iefix') format('embedded-opentype'),
-      url('../thiep/fonts/SVN-DessertMenuScript.woff2') format('woff2'),
-      url('../thiep/fonts/SVN-DessertMenuScript.woff') format('woff'),
-      url('../thiep/fonts/SVN-DessertMenuScript.ttf') format('truetype'),
-      url('../thiep/fonts/SVN-DessertMenuScript.svg#SVN-DessertMenuScript') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-MediumItalic.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-MediumItalic.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-MediumItalic.svg#Montserrat-MediumItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
   font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../thiep/fonts/Montserrat-ThinItalic.woff2') format('woff2'),
+      url('../thiep/fonts/Montserrat-ThinItalic.woff') format('woff'),
+      url('../thiep/fonts/Montserrat-ThinItalic.svg#Montserrat-ThinItalic') format('svg');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root{
+  --font-primary: 'Montserrat';
+  --primary-color: #964021;
 }
 
 
@@ -289,7 +203,7 @@
 }
 
 .box-form{
-  height: 1200px;
+  height: 1100px;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -312,15 +226,29 @@
 
 .feed-info{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 20px 0;
+  font-family: var(--font-primary);
+  color: var(--primary-color);
 }
 
+.lb{
+  font-weight: 600;
+  font-size: 3em;
+}
+
+.dot{
+  font-size: .7em;
+  margin: 30px 0;
+}
+
+
 .in-fe{
-  font-size: 10px;
+  font-size: .8em;
+  text-align: center;
   font-weight: 300;
-  font-family: 'SVN-Gotham';
 }
 
 
@@ -344,7 +272,7 @@
   justify-content: center;
   align-items: center;
   /* margin: 0 auto; */
-  font-family: 'SVN-Gotham';
+  font-family: var(--font-primary);
   font-weight: 300;
   }
   
@@ -363,14 +291,14 @@ width: 100px;
 display: inline-block;
 align-items: center;
 justify-content: center;
-font-family: 'SVN-Gotham';
+font-family: var(--font-primary);
 border-radius: 20px;
 /*margin: 0 15px;*/
 }
 
 .box-feed:checked+label {
 color: #fff;
-background-color: #FDC890;
+background-color: var(--primary-color);
 }
 
 .box-feed{
@@ -390,7 +318,7 @@ font-weight: 400;
 width: 170px;
 text-align: center;
 display: inline-block;
-border: 1px solid black;
+border: 1px solid var(--primary-color);
 padding: 5px 10px;
 margin: 5px 20px;
 border-radius: 20px;
@@ -398,8 +326,8 @@ font-style: normal;
 background-color: #fff;
 }
 .box-feed:checked+label {
-color: #111;
-background-color: #FDC890;
+color: #fff;
+background-color: var(--primary-color);
 }
 
 .box-ten{
@@ -415,12 +343,12 @@ background-color: #FDC890;
     height: 100px;
     text-align: left;
     border-radius: 20px;
-    border: 1px solid #111;
+    border: 1px solid var(--primary-color);
     font-size: 13px;
     font-weight: 300;
     padding: 5px 10px;
     margin: 5px 0;
-    font-family: 'SVN-Gotham';
+    font-family: var(--font-primary);
     background: none;
     }
 
@@ -430,7 +358,7 @@ background-color: #FDC890;
   height: 30px;
   text-align: left;
   border-radius: 20px;
-  border: 1px solid black;
+  border: 1px solid var(--primary-color);
   font-size: 13px;
   font-weight: 300;
   padding: 5px 10px;
@@ -446,11 +374,11 @@ background-color: #FDC890;
 .xacnhan{
   height: 30px;
   font-size: 15px;
-  background: #FDC890;
-  color: #111;
+  background: var(--primary-color);
+  color: #fff;
   margin: 20px 10px;
   border-radius: 20px;
-  border: 1px solid black;
+  border: 1px solid var(--primary-color);
   cursor: pointer;
   width: 150px;
 }
@@ -466,7 +394,7 @@ background-color: #FDC890;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-family: 'SVN-Gotham';
+  font-family: var(--font-primary);
 }
 .count-per{
   width: 100px;
@@ -489,7 +417,7 @@ background-color: #FDC890;
   justify-content: center;
   text-align: center;
   margin-top: 30px;
-  font-family: 'SVN-Gotham';
+  font-family: var(--font-primary);
   font-size: 20px;
 }
 .in-be{
@@ -511,7 +439,7 @@ background-color: #FDC890;
     margin-left: 55px;
   }
   .box-form{
-    height: 1050px;
+    height: 1100px;
     margin-top: 20px;
   }
 }
