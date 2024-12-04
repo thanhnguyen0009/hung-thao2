@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./thiep/xacnhan.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <title>HƯNG - THẢO</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="container-wrapper">
+            <div class="box-form">
+                <img src="./thiep/anh/thamdu-06.png" alt="" class="img-form">
+                <form action="" name="hung-thao">
+                    <div class="feed-info">
+                        <label for="" class="in-fe">DÀNH CHÚT THỜI GIAN ĐỂ XÁC NHẬN THAM DỰ GIÚP <strong>HƯNG & THẢO</strong> NHÉ!</label>
+                    </div>
+        
+                    <div class="container-check">
+                        <input class="box-feed" type="radio" value="CÓ" id="yes" name="XÁC NHẬN">
+                        <label class="check-box" for="yes">
+                            <h3 class="til-check">NHẤT ĐỊNH ĐI</h3>
+                        </label>
+                        <input class="box-feed" type="radio" value="KHÔNG" id="no" name="XÁC NHẬN">
+                        <label class="check-box" for="no"> 
+                            <h3 class="til-check">KHÔNG ĐI ĐƯỢC😭</h3>
+                        </label>
+                    </div>
+        
+                    <div class="box-ten">
+                        <input required class="inp-ten" type="text"  name="TÊN" placeholder="Tên của bạn">
+                        <input required class="inp-ten" type="text"  name="SỐ KHÁCH" placeholder="Số khách mời đi kèm" maxlength="1">
+                        <textarea id="message" name="LỜI CHÚC" rows="4" cols="50" placeholder="Dành lời chúc mừng đến Khánh Hưng và Thạch Thảo tại đây:"></textarea>
+                    </div>
+                    <div class="wrapper">
+                        <button class="xacnhan" type="submit">XÁC NHẬN</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzqIO_Qxlx9vM6CHivhn8mOeQL-aRvx7PlK-xD_zmPV0kTF3jYClac4PNv-_vsLbhs/exec';
+        const form = document.forms['hung-thao'];
+    
+        form.addEventListener('submit', e => {
+    e.preventDefault(); // Ngừng việc gửi form mặc định
+
+    // Hiển thị thông báo cảm ơn ngay khi nhấn gửi
+    alert('Cảm ơn bạn đã phản hồi. Nhấn "OK" và chờ một vài giây để trang tự load lại nhé!! Đừng nhấn Xác Nhận thêm một lần nào nữa nhé <3');
+
+    // Gửi dữ liệu form đi
+    fetch(scriptURL, { 
+        method: 'POST', 
+        body: new FormData(form)
+    })
+    .then(response => {
+        if (response.ok) {
+            // Nếu dữ liệu gửi thành công, làm mới lại form
+            form.reset(); // Làm mới lại form
+            alert('Thông tin đã được gửi đi!!');
+        } else {
+            // Nếu gặp lỗi khi gửi dữ liệu
+            console.error('Error!', response);
+            alert('OPPS! Đã xảy ra lỗi');
+        }
+    })
+    .catch(error => {
+        // Xử lý lỗi nếu có
+        console.error('Error!', error.message);
+        alert('OPPS! Đã xảy ra lỗi: ' + error.message);
+    });
+});
+    </script>
+
+    <script src="./thiep/tony_nga.js"></script>
+</body>
+</html>
